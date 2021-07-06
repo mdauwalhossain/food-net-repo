@@ -1,3 +1,54 @@
 body{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    display: flex;
+   
+}
+
+section h1{
+    font-size: 55px;
+    padding: opx;
+    color: rgb(110, 107, 107);
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+    
+}
+section p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(168, 164, 164);
+}
+
+#top-heading{
+    padding-top: 250px;
+}
+#orange{
+    color: orange;
+}
+
+.half{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.half img{
+    width: 80%;
+}
+.half p{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.order{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: white;
+
+    
 }
